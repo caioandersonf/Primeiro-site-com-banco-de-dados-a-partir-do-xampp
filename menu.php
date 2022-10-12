@@ -15,7 +15,7 @@
     <div class="w3-bar w3-white w3-wide w3-padding w3-card">
         <a href="menu.php" class="w3-bar-item w3-button"><b>Página principal</b></a>  
         <div class="w3-right w3-hide-small">
-            <a href="https://www.google.com" class="w3-bar-item w3-button">Sair</a>
+            <a href="sair.php" class="w3-bar-item w3-button">Sair</a>
         </div>
     </div>
 </div>
@@ -24,6 +24,7 @@
 
     <div class="w3-container w3-padding-32" id="projects">
         <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Roteiro do 1º Filme de Shrek</h3>
+        <img src="https://br.web.img2.acsta.net/medias/nmedia/18/91/54/04/20150812.jpg">
     </div>
 <p>SHREK</p>
 <p>Escrito por</p>
