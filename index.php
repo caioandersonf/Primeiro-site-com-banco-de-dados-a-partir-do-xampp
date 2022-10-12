@@ -188,10 +188,16 @@
             a {
             text-align: center;
             display: block;
-            top: 120px;
             position: relative;
             text-decoration: none;
-            color: rgba(255, 255, 255, 0.2);
+            color: black;
+            }
+            span{
+            text-align: left;
+            display: block;
+            position: relative;
+            text-decoration: none;
+            color: green;
             }
 
         </style>
@@ -201,9 +207,9 @@
         <div class="login">
         <h2 class="active"> Login </h2>
 
-        <h2 class="nonactive">cadastrar-se</h2>
+        <h2 class="nonactive"><a href="cadastro.php">cadastrar-se<a></h2>
         
-        <form method="POST" action="menu.php">
+        <form method="POST" action="autentifica.php">
 
             <input type="email" class="text" name="email" id="email" value="">
             <span>email</span>
