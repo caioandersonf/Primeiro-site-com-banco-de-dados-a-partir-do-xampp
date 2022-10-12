@@ -195,7 +195,7 @@
             .nonactive,
             a{  
             text-align: left;
-            display: block;
+            display: inline;
             position: relative;
             text-decoration: none;
             color: black;
