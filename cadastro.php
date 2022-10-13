@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 
 <html lang="pt-br">
@@ -15,6 +19,7 @@
             .titulo{
                 color:black;
             }
+
             body,
             .signin {
             background-color: #d3d3d3;
@@ -192,6 +197,7 @@
             text-decoration: none;
             color: black;
             }
+
             .nonactive,
             a{  
             text-align: left;
@@ -200,6 +206,7 @@
             text-decoration: none;
             color: black;
             }
+
             span{
             text-align: left;
             display: block;
