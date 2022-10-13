@@ -2707,7 +2707,7 @@ respirar. Eu não consigo respirar.
         <p><button class="w3-button w3-light-grey w3-block"><a target="_blank" href="https://github.com/caioandersonf">Contact</a></button></p>
         </div>
         <div class="w3-col l3 m6 w3-margin-bottom">
-        <img src="https://pbs.twimg.com/media/EmGPKWKXgAAQ0hh?format=jpg&name=small" alt="Caio" style="width:100%">
+        <img src="Vandre.jpeg" alt="Vandré" style="width:100%">
         <h3>Vandré Cortês</h3>
         <p class="w3-opacity">CEO & Founder</p>
         <p>Sou Vandré Cortês um dos fundadores deste site caso tenha alguma dúvida, deixo abaixo meu contato.</p>
