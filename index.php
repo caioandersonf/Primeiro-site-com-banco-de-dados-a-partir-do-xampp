@@ -229,6 +229,15 @@
             <button class="signin">Fazer Login</button>
         </form>
 
+        <p style="color:white">
+            <?php
+            if(isset($_SESSION['msg'])){
+                echo $_SESSION['msg'];
+                unset($_SESSION['msg']);
+            }
+            ?>
+        </p>
+
         </div>
 
     </body>
