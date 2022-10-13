@@ -1,19 +1,36 @@
 <?php
+    session_start();
 
-$servidor = "localhost";
-$usuario = "root";
-$senha = "";
-$dbname = "bancodedados";
+    $servidor = "localhost";
+    $usuario = "root";
+    $senha = "";
+    $dbname = "bancodedados";
 
-$conn = mysqli_connect($servidor, $usuario, $senha, $dbname);
+    $conn = mysqli_connect($servidor, $usuario, $senha, $dbname);
 
-$email = $_POST['email'];
-$password = $_POST['senha'];
+    $email = $_POST['email'];
+    $password = $_POST['senha'];
 
-$result_usuario = "INSERT INTO usuarios (email, senha) VALUES ('$email','$password')";
+    $limita = "SELECT * FROM usuarios WHERE email = '$email'";
 
-$resultado_usuario = mysqli_query($conn,$result_usuario);
+    $verifica = mysqli_query($conn, $limita);
 
-header("location:index.php");
+    $contar = mysqli_num_rows($verifica);
+
+    if ($contar >= '1'){
+
+        header("location: aviso.php");
+            
+
+    }else{
+            
+
+        $result_usuario = "INSERT INTO usuarios (email, senha) VALUES ('$email','$password')";
+
+        $resultado_usuario = mysqli_query($conn,$result_usuario);
+
+        header("location:index.php");
+
+    }
 
 ?>
