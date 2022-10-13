@@ -11,8 +11,8 @@
         $resultado = mysqli_fetch_assoc($result);
 
         if(empty($resultado)){
-            
-           header("Location: vazio.php");
+            $_SESSION['msg'] = "E-mail ou senha estão incorretos";
+            header("Location: vazio.php");
                 
         }elseif(!empty($resultado)){
 
@@ -22,7 +22,7 @@
         }
     }
     else{
-        
+        $_SESSION['msg'] = "E-mail ou senha estão incorretos";
         header("Location: vazio.php");
         
     }
