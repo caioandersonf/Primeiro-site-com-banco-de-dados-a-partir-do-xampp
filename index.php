@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 
 <html lang="pt-br">
@@ -209,7 +213,7 @@
 
         <h2 class="nonactive"><a href="cadastro.php">cadastrar-se<a></h2>
         
-        <form method="POST" action="autentifica.php">
+        <form method="POST" action="login.php">
 
             <input type="email" class="text" name="email" id="email" value="">
             <span>email</span>
